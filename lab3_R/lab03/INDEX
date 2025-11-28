@@ -1,0 +1,6 @@
+dijkstra                Function to calculate the shortest path from
+                        the initial node to other node in the graph
+euclidean               Function to find the greatest common divisor of
+                        two numbers.
+lab03-package           Lab 3 of Advanced Programming in R
+wiki_graph              wiki_graph: data frame for dijkstra function

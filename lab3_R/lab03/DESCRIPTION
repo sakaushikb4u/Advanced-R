@@ -1,0 +1,18 @@
+Package: lab03
+Type: Package
+Title: Lab 03 Assignment of [Advanced R Proramming]
+Version: 1.0
+Date: 2023-09-13
+Authors@R: c(person("Qinyuan Qi", "Developer", role = c("aut", "cre"), email = "qiqinyuan@gmail.com"),
+             person("Satya Sai Naga Jaya Koushik Pilla", "Developer", role = c("aut")))
+Description: Lab 03 Assignment of [Advanced R Proramming].
+License: MIT + file LICENSE
+RoxygenNote: 7.2.3
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 2.10)
+LazyData: true
+Author: Qinyuan Qi Developer [aut, cre],
+  Satya Sai Naga Jaya Koushik Pilla Developer [aut]
+Maintainer: Qinyuan Qi Developer <qiqinyuan@gmail.com>
+Built: R 4.3.1; ; 2023-09-17 18:53:37 UTC; unix
