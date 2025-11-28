@@ -1,0 +1,29 @@
+---
+title: "How to use lab05 package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to use lab05 package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Overview
+
+The `lab05` an API package along with a shiny app .This vignette serves as a guide to understanding and using the main functions provided by the package.
+
+# Installation of package
+
+To install the `lab05` package, use the following commands:
+
+```{r install-linreg-package, eval=FALSE}
+devtools::install_github("qqyfly/732A94_Advanced_Programming_in_R_Lab5")
+library(lab05)
+```
+
+# Show the shiny webpage
+
+The shiny web page is a demo site to show api calls to the `lab05` api package.
+before running website, you need to install shiny, shinydashboard and ggplot2 package
+```
+shiny::runGitHub(repo="732A94_Advanced_Programming_in_R_Lab5",username="qqyfly",subdir="web")
+```
